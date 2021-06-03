@@ -6,6 +6,7 @@ Este proyecto se encarga de manejar la persistencia de datos para la gestion de 
   * Usuario con rol **dbmanager** para pode crear base de datos
 3. Visual Studio **2017 o superior** [_En caso de correr aplicación en modo debug_]
 4. [.Net Core 3.1](https://dotnet.microsoft.com/download/dotnet/3.1) (**SDK** Modo debug o **Runtime** en mode deploy)
+5. Tener applicación cliente para consumo de servicio en **Windows Forms** `C#` [Elipgo.WinForm](https://github.com/campus-press/Elipgo.WinForm/tree/v1.0) 
 
 ## Instrucciones de uso
 Para poder hacer uso del servicio **REST** es muy importante que en la configuracion del proyecto _appsettings.json_ se cambie la **cadena de conexión** con el nombre de usuario y contraseña para poder conectarse al sevicio a una base de datos
